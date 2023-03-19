@@ -13,7 +13,7 @@
         </div>
     </section>
 
-    <section class="company-mission section-sm bg-gray">
+    {{-- <section class="company-mission section-sm bg-gray">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -48,29 +48,80 @@
                 </div>
             </div> <!-- End row -->
         </div> <!-- End container -->
-    </section> <!-- End section -->
+    </section> <!-- End section --> --}}
 
-    <section class="company-mission section-sm">
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-xl-6 col-lg-8">
-                    <div class="col-md-12 text-center">
-                        <h2>Sneak Peak Gallery</h2>
-                        <br>
-                    </div>
+    <section class="about-shot-info section-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mt-20">
+                    <h2 class="mb-3" style="text-align: right">Budidaya <br> Lele</h2>
+                    <p style="text-align: right">Cultivation of Catfish</p>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <img loading="lazy" class="img-fluid" src="{{ asset('main/images/pict/Picture19.jpg') }}" alt="">
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
-                    <div class="company-gallery">
-                        <img loading="lazy" src="{{ asset('main/images/company/Picture35.jpg') }}" alt="">
-                        <img loading="lazy" src="{{ asset('main/images/company/Picture8.jpg') }}" alt="">
-                        <img loading="lazy" src="{{ asset('main/images/company/Picture15.jpg') }}" alt="">
-                        <img loading="lazy" src="{{ asset('main/images/company/Picture17.jpg') }}" alt="">
-                        <img loading="lazy" src="{{ asset('main/images/company/Picture20.jpg') }}" alt="">
-                        <img loading="lazy" src="{{ asset('main/images/company/Picture21.jpg') }}" alt="">
-                        <img loading="lazy" src="{{ asset('main/images/company/Picture40.jpg') }}" alt="">
-                    </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <img loading="lazy" class="img-fluid" src="{{ asset('main/images/pict/Picture9.jpg') }}" alt="">
+                </div>
+                <div class="col-lg-6 mt-20">
+                    <h2 class="mb-3">Budidaya Ayam Petelur <br> dan Pedaging</h2>
+                    <p>Cultivation of layer and broiler chickens</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mt-20">
+                    <h2 class="mb-3" style="text-align: right">Budidaya Sapi Dengan Pemanfaatan <br>Pakan Kering dan Pakan Basah </h2>
+                    <p style="text-align: right">Cattle cultivation with the use of dry and wet feed</p>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <img loading="lazy" class="img-fluid" src="{{ asset('main/images/pict/Picture26.png') }}" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <img loading="lazy" class="img-fluid" src="{{ asset('main/images/pict/Picture27.jpg') }}" alt="">
+                </div>
+                <div class="col-lg-6 mt-20">
+                    <h2 class="mb-3">Pengembangan Pertanian Kebun Sayur <br> Dengan Memanfaatkan Kompos Dari Sampah Peternakan</h2>
+                    <p>Development Of Vegetable Garden Agriculture By Utilizing Compost From Livestock Waste</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mt-20">
+                    <h2 class="mb-3" style="text-align: right">Budidaya BSF <br>Sebagai Pengurai Sampah Organic</h2>
+                    <p style="text-align: right">Cultivation Of BSF As A Decomposer Of Organic Waste</p>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <img loading="lazy" class="img-fluid" src="{{ asset('main/images/pict/Picture31.jpg') }}" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <img loading="lazy" class="img-fluid" src="{{ asset('main/images/pict/Picture35.jpg') }}" alt="">
+                </div>
+                <div class="col-lg-6 mt-20">
+                    <h2 class="mb-3">Pengelolaan Sampah  <br>Organic Menggunakan BSF</h2>
+                    <p>Management Of Organic Waste Using BSF </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mt-20">
+                    <h2 class="mb-3" style="text-align: right">Budidaya Lebah <br>Sebagai Pollinator</h2>
+                    <p style="text-align: right">Cultivation Of Bee As Pollinator </p>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <img loading="lazy" class="img-fluid" src="{{ asset('main/images/pict/Picture39.jpg') }}" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <img loading="lazy" class="img-fluid" src="{{ asset('main/images/pict/Picture26.jpg') }}" alt="">
+                </div>
+                <div class="col-lg-6 mt-20">
+                    <h2 class="mb-3">Pemanfaatan Energi Bersih (Biogas) Dari Kotoran Sapi <br>dan Sisa Kotoran Ayam Untuk Kebutuhan Dapur Basecamp Lavandaia</h2>
+                    <p>Utilization Of Clean Energy (Biogas) From Cow Manure And Chicken Manure For The Kitchen Needs Of Davandaya House</p>
                 </div>
             </div>
         </div>
