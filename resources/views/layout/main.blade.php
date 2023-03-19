@@ -88,7 +88,10 @@ Fixed Navigation
                             <a class="nav-link" href="{{ route('programs.index') }}">Program</a>
                         </li>
                         <li class="nav-item {{ request()->is('activities') ? 'active' : '' }}">
-                            <a class="nav-link" href="{{ route('activities.index') }}">Activities</a>
+                            <a class="nav-link" href="{{ route('activities.index') }}">Activity</a>
+                        </li>
+                        <li class="nav-item {{ request()->is('galleries') ? 'active' : '' }}">
+                            <a class="nav-link" href="{{ route('galleries.index') }}">Gallery</a>
                         </li>
                         <li class="nav-item {{ request()->is('contacts') ? 'active' : '' }}">
                             <a class="nav-link" href="{{ route('contacts.index') }}">Contact</a>

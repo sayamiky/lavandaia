@@ -25,13 +25,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <h1 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">Kenapa Hadir
-                            <br> Lavandaia Dharma Bali?
+                        <h1 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">LAVANDAIA <br>
+                            DHARMA BALI
                         </h1>
-                        <p data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".5"> Membantu mempengaruhi
-                            satu
-                            organisme dengan organisme
-                            <br> lainnya memiliki keterhubungan yang hidup.
+                        <p data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".5"> Cleaning the
+                            Micro-Macro cosmos with love to maintain relationships <br> in accordance with the
+                            Tri Hita Karana on the basis of
+                            Tatwam Asi
+                            <br>
                         </p>
                         <a data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".8" class="btn btn-main"
                             href="{{ route('programs.index') }}">Explore Us</a>
@@ -42,15 +43,14 @@
     </div>
 
     <!--Start About Section-->
-    <section class="service-2 section">
+    <section class="service-2 section" style="padding-bottom: 0px; margin-bottom: 0px">
         <div class="container">
             <div class="row justify-content-center">
 
                 <div class="col-lg-6">
                     <!-- section title -->
                     <div class="title text-center">
-                        <h2>Apa itu
-                            Lavandaia Dharma Bali?</h2>
+                        <h2>Lavandaia Dharma Bali</h2>
                         <p>Lavandaia merupakan sebuah kata yang memuat unsur;
                             Cahaya Cinta Kehidupan.
                             sebuah komponen
@@ -58,14 +58,13 @@
                             sebuah ruang penyimpanan untuk
                             menyimpan sumber daya. </p>
                         <div class="border"></div>
+                        <p>Lavandaia is also an acronym, representing the following elements Light Love Life. 
+                            such is meant to represent a return to the root point of departure a space to store resources for their 
+                            proper time of use, in order to take full advantage of 
+                            the potential held within.
+                            </p>
                     </div>
                     <!-- /section title -->
-                </div>
-            </div>
-            <div class="row">
-
-                <div class="col-md-4 text-center d-none d-md-block">
-                    <img loading="lazy" src="" class="img-fluid inline-block" alt="">
                 </div>
             </div>
         </div>
@@ -78,9 +77,8 @@
                 <!-- section title -->
                 <div class="col-lg-6">
                     <div class="title text-center">
-                        <h2>Apa Program
-                            Lavandaia Dharma Bali?</h2>
-                        <p>Ada 5 Program Kegiatan dari Lavandaia Dharma Bali yaitu: </p>
+                        <h2>Program Lavandaia Dharma Bali</h2>
+                        {{-- <p>Ada 5 Program Kegiatan dari Lavandaia Dharma Bali yaitu: </p> --}}
                         <div class="border"></div>
                     </div>
                 </div>
@@ -90,16 +88,16 @@
             <div class="row">
 
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img loading="lazy" src="{{ asset('main/images/about/Picture22.jpg') }}" class="img-fluid"
-                        alt="">
+                    <img loading="lazy" src="{{ asset('main/images/about/Picture22.jpg') }}" height="200"
+                        class="img-fluid" alt="">
                 </div>
                 <div class="col-md-6">
                     <ul class="checklist">
-                        <li>Peternakan.</li>
-                        <li>Pertanian.</li>
-                        <li>Edukasi.</li>
-                        <li>Pengelolaan Sampah.</li>
-                        <li>Pasar Komunitas Lavandaia.</li>
+                        <li>Peternakan</li>
+                        <li>Pertanian</li>
+                        <li>Edukasi</li>
+                        <li>Pengelolaan Sampah</li>
+                        <li>Pasar Komunitas Lavandaia</li>
                     </ul>
                     <a href="{{ route('abouts.index') }}" class="btn btn-main mt-20">Learn More</a>
                 </div>
